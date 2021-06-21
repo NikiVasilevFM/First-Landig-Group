@@ -377,3 +377,166 @@ footer {
     padding-top: 5px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding-left: 27px;
+    padding-top: 28px;
+    padding-right: 42px;
+  }
+
+  .header-box {
+    width: 52.19px;
+    height: 30.75px;
+  }
+
+  .line {
+    width: 52px;
+    height: 8px;
+  }
+
+  .header-text-header {
+    font-size: 12px;
+    padding-top: 2px;
+    margin: 0;
+    line-height: 10px;
+  }
+
+  .main-nav {
+    margin-top: 39px;
+  }
+
+  .img-nav-box {
+    width: 10.25px;
+    height: 9.79px;
+  }
+
+  .text-nav-box {
+    font-size: 10px;
+  }
+
+  .main-nav-box {
+    margin-right: 16px;
+  }
+
+  .top-box-text-header-about {
+    font-size: 37px;
+    margin-top: 10px;
+    width: 292.63px;
+    height: 88.53px;
+  }
+
+  .top-box {
+    display: block;
+  }
+
+  .top-box-text-header-param {
+    font-size: 10px;
+    width: 212.4px;
+    height: 28.96px;
+  }
+
+  .top-box-img {
+    width: 141.66px;
+    height: 165.89px;
+    margin-top: 0;
+  }
+
+  .top-box-img-about {
+    width: 141.66px;
+    height: 165.89px;
+    margin-left: 84px;
+  }
+
+  .bot-box {
+    margin-top: 46px;
+    width: 225.36px;
+    height: 93.19px;
+  }
+
+  .midl-sect {
+    margin-top: 77px;
+  }
+
+  .header-text {
+    font-size: 26px;
+    width: 170.08px;
+    height: 43.34px;
+  }
+
+  .sect-box {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .section-box {
+    width: 383.41px;
+    height: 216.61px;
+    margin-top: 0px;
+  }
+
+  .section-about-taxt {
+    font-size: 12px;
+  }
+
+  .section-box {
+    width: 308.47px;
+    height: 174.27px;
+    margin-top: 8px;
+  }
+
+  .section-about-text {
+    font-size: 12px;
+    margin-top: 18px;
+  }
+
+  .section-img {
+    width: 146.32px;
+    height: 146.78px;
+    margin-top: 55px;
+    margin-left: 78px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 32px;
+  }
+
+  .box-left {
+    margin-right: -7px;
+    margin-top: 62px;
+  }
+
+  .footer-img {
+    width: 108.11px;
+    height: 94.59px;
+  }
+
+  .box {
+    width: 69.9px;
+    height: 18.17px;
+    margin-top: 25px;
+    margin-right: 0px;
+  }
+
+  .box-right {
+    flex-wrap: wrap;
+  }
+
+  .footer-img {
+    width: 108.11px;
+    height: 94.59px;
+  }
+
+  .box-title {
+    font-size: 12px;
+  }
+
+  .box-text {
+    font-size: 10px;
+    width: 86px;
+    height: 18px;
+  }
+
+}
