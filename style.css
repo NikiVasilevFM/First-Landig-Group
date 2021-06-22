@@ -1,10 +1,587 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
-    width: 100%;
-    height: 100%;
-    font-family: Roboto Slab;
+
+body {
+  font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 100%;
+  height: 100%;
 }
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 113px;
+  padding-top: 15px;
+  padding-right: 145px;
+}
+
+
+.line {
+  width: 111px;
+  height: 14px;
+  background-color: black;
+  margin: 0;
+}
+
+.header-text-header {
+  font-size: 24px;
+  padding-top: 6px;
+  margin: 0;
+  line-height: 21px;
+}
+
+/* Блок с  3 секциями */
+
+.main-nav {
+  margin-top: 98px;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-nav-box {
+  margin-right: 44px;
+}
+
+.img-nav-box {
+  width: 23px;
+  height: 23px;
+  padding-right: 3px;
+}
+
+.text-nav-box {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+}
+
+/* Блок с картинкой и текстом первый */
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-box-text-header-about {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-top: 23px;
+  margin-bottom: 0;
+}
+
+.top-box-text-header-param {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+
+.top-box-img-about{
+  width: 304px;
+  height: 356px;
+  margin-right: 93px;
+  margin-top: 13px;
+
+}
+
+/* Блок с текстом внутри  */
+
+.bot-box {
+  right: 54px;
+  border-radius: 5px;
+  transform: rotate(-4deg);
+  width: 483.63px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #1E4681;
+  margin-top: 83px;
+  position: relative;
+}
+
+.bot-box-text {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 130%;
+  padding-top: 21px;
+  margin: 0;
+  padding-left: 28px;
+}
+
+.bot-box-text-bot {
+  text-align: right;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 4px;
+  padding-right: 20px;
+}
+
+
+/* Средняя секция */
+
+.midl-sect {
+  margin-top: 173px;
+}
+
+.header-text {
+  font-family: Roboto Slab, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin-bottom: 0;
+}
+
+.sect-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+}
+
+
+.section-about-taxt {
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  margin: 0;
+  margin-right: 180px;
+}
+
+.section-about-text {
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: 36px;
+  margin-right: 189px;
+  margin-bottom: 0;
+}
+
+.section-img {
+  width: 314px;
+  height: 316px;
+  margin-top: 23px;
+}
+
+/* Подвал */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.footer-img {
+  width: 232px;
+  height: 203px;
+}
+
+.box {
+  margin-left: 0;
+  margin-right: 95px;
+
+}
+
+.box-title {
+  font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 1px;
+  font-size: 25px;
+  margin: 0;
+}
+
+.box-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 150px;
+  line-height: 130%;
+  margin: 0;
+  padding-top: 8px;
+}
+
+.footer-img {
+  margin-top: 12px;
+}
+
+.box-left {
+  margin-right: 132px;
+}
+
+.box-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 32px;
+  width: 30%;
+}
+
+
+@media screen and (max-width: 834px) {
+  .wrapper {
+    padding-left: 62px;
+    padding-right: 82px;
+  }
+
+  .line {
+    width: 65px;
+    height: 8px;
+  }
+
+  .header-text-header {
+    font-size: 15px;
+    padding-top: 4px;
+    margin: 0;
+    line-height: 12px;
+  }
+
+  .main-nav {
+    margin-top: 55px;
+  }
+
+  .main-nav-box {
+    margin-right: 20px;
+  }
+
+  .img-nav-box {
+    width: 12.74px;
+    height: 12.16px;
+  }
+
+  .text-nav-box {
+    font-size: 12px;
+  }
+
+  .top-box-text-header-about {
+    font-weight: bold;
+    font-size: 46px;
+    margin-top: 12px;
+    width: 363.72px;
+    height: 110.04px;
+  }
+
+  .top-box-text-header-param {
+    font-size: 12px;
+    padding-top: 2px;
+    margin-top: 0;
+  }
+
+  .top-box-img-about {
+    width: 176.07px;
+    height: 206.18px;
+  }
+
+  .top-box-img {
+    margin-left: 81px;
+    margin-top: -7px;
+  }
+
+  .bot-box {
+    width: 280.11px;
+    height: 115.83px;
+    margin-top: 47px;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: normal;
+    right: 30px;
+  }
+
+  .bot-box-text-bot {
+    font-size: 12px;
+    margin-top: 7px;
+    padding-right: 12px;
+  }
+
+  .bot-box-text {
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-top: 10px;
+    color: #FFFFFF;
+  }
+
+  .midl-sect {
+    margin-top: 100px;
+  }
+
+  .header-text {
+    font-size: 32px;
+  }
+
+  .sect-box {
+    margin-top: 33px;
+  }
+
+  .section-about-taxt {
+    font-size: 14px;
+    margin-right: 142px;
+  }
+
+  .section-about-text {
+    font-size: 14px;
+    margin-top: 21px;
+    margin-right: 117px;
+
+  }
+
+  .section-img {
+    width: 181.86px;
+    height: 182.44px;
+    margin-top: 13px;
+    margin-right: -1px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 26px;
+    align-items: center;
+  }
+  
+  .footer-img {
+    width: 232px;
+    height: 203px;
+  }
+  
+  .box {
+    margin-right: 53px;
+  }
+  
+  .box-title {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .box-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 130%;
+    margin: 0;
+    padding-top: 4px;
+    width: 88.88px;
+    height: 22.59px;
+  }
+  
+  .footer-img {
+    margin-top: 12px;
+    width: 134.37px;
+    height: 117.57px;
+  }
+  
+  .box-left {
+    margin-right: 76px;
+  } 
+
+  .box-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    padding-top: 21px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding-left: 27px;
+    padding-top: 28px;
+    padding-right: 19px;
+  }
+
+  .header-box {
+    width: 52.19px;
+    height: 30.75px;
+  }
+
+  .line {
+    width: 52px;
+    height: 8px;
+  }
+
+  .header-text-header {
+    font-size: 12px;
+    padding-top: 2px;
+    margin: 0;
+    line-height: 10px;
+  }
+
+  .main-nav {
+    margin-top: 39px;
+  }
+
+  .img-nav-box {
+    width: 10.25px;
+    height: 9.79px;
+  }
+
+  .text-nav-box {
+    font-size: 10px;
+  }
+
+  .main-nav-box {
+    margin-right: 13px;
+  }
+
+  .top-box-text-header-about {
+    font-size: 37px;
+    margin-top: 10px;
+    width: 292.63px;
+    height: 88.53px;
+  }
+
+  .top-box {
+    display: block;
+  }
+
+  .top-box-text-header-param {
+    font-size: 10px;
+    width: 212.4px;
+    height: 28.96px;
+  }
+
+  .top-box-img {
+    width: 141.66px;
+    height: 165.89px;
+    margin-top: 0;
+  }
+
+  .top-box-img-about {
+    width: 141.66px;
+    height: 165.89px;
+    margin-left: 84px;
+    margin-top: 0px;
+  }
+
+  .bot-box {
+    margin-top: 48px;
+    width: 226.36px;
+    height: 93.19px;
+    right: 40px;
+  }
+
+  .bot-box-text {
+    font-weight: normal;
+    font-size: 11px;
+    padding-left: 16px;
+    padding-top: 10px;
+  }
+
+  .bot-box-text-bot {
+    font-size: 10px;
+    margin-top: 5px;
+    padding-right: 11px;
+  }
+
+  .midl-sect {
+    margin-top: 75px;
+  }
+
+  .header-text {
+    font-size: 26px;
+    width: 170.08px;
+    height: 43.34px;
+  }
+
+  .sect-box {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+  .section-box {
+    margin-top: 7px;
+  }
+
+  .section-about-taxt {
+    font-size: 12px;
+    margin-right: 12px;
+  }
+
+  .section-about-text {
+    font-size: 12px;
+    margin-top: 18px;
+    margin-right: 19px;
+  }
+
+  .section-img {
+    width: 146.32px;
+    height: 146.78px;
+    margin-top: 15px;
+    margin-left: 78px;
+  }
+
+  footer {
+    flex-direction: row-reverse;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+
+  .box-left {
+    margin-right: 17px;
+    margin-top: 39px;
+  }
+
+  .footer-img {
+    width: 108.11px;
+    height: 94.59px;
+    margin-top: 0;
+  }
+
+  .box {
+    margin-top: 25px;
+    margin-right: 0px;
+  }
+
+  .box-right {
+    flex-wrap: wrap;
+  }
+
+  .footer-img {
+    width: 108.11px;
+    height: 94.59px;
+  }
+
+  .box-title {
+    font-size: 12px;
+  }
+
+  .box-text {
+    font-size: 10px;
+    width: 86px;
+    height: 18px;
+  }
+
+}
+
 .container{
     width: 1440px;
     border: solid black 1px;
