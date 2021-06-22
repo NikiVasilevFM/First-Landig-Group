@@ -4,24 +4,29 @@
 
 body {
   font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  width: 100%;
-  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
   max-width: 1440px;
+  height: 100%;
   margin: auto;
-  padding-left: 113px;
+  padding-left: 122px;
   padding-top: 15px;
-  padding-right: 145px;
+  box-sizing: border-box;
 }
 
+.Wal-header {
+  margin-top: 2px;
+}
 
 .line {
   width: 111px;
   height: 14px;
   background-color: black;
   margin: 0;
+  margin-top: 6px;
 }
 
 .header-text-header {
@@ -91,7 +96,7 @@ body {
 .top-box-img-about{
   width: 304px;
   height: 356px;
-  margin-right: 93px;
+  margin-right: 245px;
   margin-top: 13px;
 
 }
@@ -99,7 +104,7 @@ body {
 /* Блок с текстом внутри  */
 
 .bot-box {
-  right: 54px;
+  right: 130px;
   border-radius: 5px;
   transform: rotate(-4deg);
   width: 483.63px;
@@ -164,7 +169,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin: 0;
-  margin-right: 180px;
+  margin-right: 179px;
 }
 
 .section-about-text {
@@ -174,7 +179,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin-top: 36px;
-  margin-right: 189px;
+  margin-right: 207px;
   margin-bottom: 0;
 }
 
@@ -182,6 +187,7 @@ body {
   width: 314px;
   height: 316px;
   margin-top: 23px;
+  margin-right: 153px;
 }
 
 /* Подвал */
@@ -242,10 +248,9 @@ footer {
 }
 
 
-@media screen and (max-width: 834px) {
+@media (max-width: 1279px) and (min-width: 834px) {
   .wrapper {
-    padding-left: 62px;
-    padding-right: 82px;
+    padding-left: 70px;
   }
 
   .line {
@@ -308,7 +313,7 @@ footer {
     padding-left: 0px;
     font-style: normal;
     font-weight: normal;
-    right: 30px;
+    right: 75px;
   }
 
   .bot-box-text-bot {
@@ -339,24 +344,23 @@ footer {
 
   .section-about-taxt {
     font-size: 14px;
-    margin-right: 142px;
+    margin-right: 141px;
   }
 
   .section-about-text {
     font-size: 14px;
     margin-top: 21px;
     margin-right: 117px;
-
   }
 
   .section-img {
     width: 181.86px;
     height: 182.44px;
     margin-top: 13px;
-    margin-right: -1px;
+    margin-right: 89px;
   }
 
-  footer {
+  .Wal-footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -412,9 +416,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 833px) and (min-width: 375px) {
   .wrapper {
-    padding-left: 27px;
+    padding-left: 35px;
     padding-top: 28px;
     padding-right: 19px;
   }
@@ -437,7 +441,7 @@ footer {
   }
 
   .main-nav {
-    margin-top: 39px;
+    margin-top: 45px;
   }
 
   .img-nav-box {
@@ -466,8 +470,7 @@ footer {
 
   .top-box-text-header-param {
     font-size: 10px;
-    width: 212.4px;
-    height: 28.96px;
+    margin-top: 2px;
   }
 
   .top-box-img {
@@ -479,22 +482,23 @@ footer {
   .top-box-img-about {
     width: 141.66px;
     height: 165.89px;
-    margin-left: 84px;
+    margin-left: 165px;
     margin-top: 0px;
   }
 
   .bot-box {
-    margin-top: 48px;
+    margin-top: 47px;
     width: 226.36px;
     height: 93.19px;
-    right: 40px;
+    right: 44px;
   }
 
   .bot-box-text {
     font-weight: normal;
     font-size: 11px;
-    padding-left: 16px;
-    padding-top: 10px;
+    padding-left: 11px;
+    padding-top: 9px;
+    color: #FFFFFF;
   }
 
   .bot-box-text-bot {
@@ -540,15 +544,9 @@ footer {
     margin-left: 78px;
   }
 
-  footer {
-    flex-direction: row-reverse;
-    margin-top: 24px;
-    justify-content: space-between;
-  }
-
-  .box-left {
-    margin-right: 17px;
-    margin-top: 39px;
+  .Wal-footer {
+    display: block;
+    margin-top: 60px;
   }
 
   .footer-img {
@@ -558,17 +556,27 @@ footer {
   }
 
   .box {
-    margin-top: 25px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 34px;
+    margin-bottom: 34px;
+  }
+
+  .box-left {
+    margin-right: 0;
   }
 
   .box-right {
     flex-wrap: wrap;
+    padding-top: 0;
+    width: auto;
   }
 
   .footer-img {
     width: 108.11px;
     height: 94.59px;
+    position: absolute;
+    right: 44px;
+    margin-top: 38px;
   }
 
   .box-title {
@@ -577,10 +585,10 @@ footer {
 
   .box-text {
     font-size: 10px;
-    width: 86px;
+    padding-top: 4px;
+    width: 85px;
     height: 18px;
   }
-
 }
 
 .container{
@@ -665,11 +673,6 @@ li{
 .image-second{
     width: 312px;
     height: 180px;
-}
-
-
-.wrapper {
-    width: 1440px;
 }
 
 .title-one {
