@@ -665,3 +665,281 @@ li{
     width: 312px;
     height: 180px;
 }
+
+
+.wrapper {
+    width: 1440px;
+}
+
+.title-one {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* position: absolute; */
+    width: 600px;
+    height: 93px;
+    left: 121px;
+    margin-left: 113px;
+    margin-top: 53px;
+    
+       
+}
+.cherta {
+    width: 630px;
+    height: 14px; 
+    background-color: black;    
+    /* position: absolute; */
+    /* left: 810px;
+    top: 55px; */
+    margin-top: 77px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;  
+}
+
+.article {
+    background-color: aqua;
+    width: 399px;
+    height: 328px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    /* margin-left: 37px; */
+}
+
+.last-article {
+    display: flex;
+}
+
+.otstup {
+    margin-top: 41px;
+}
+
+.otstup-2 {
+    margin-top: 45px;
+}
+
+.otstup-3 {
+    margin-top: 45px;
+    margin-left: 37px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:burlywood;
+    margin-left: 20px;
+    margin-right: 14px;
+    margin-top: 9px; 
+}
+
+#last-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:burlywood;
+    margin-left: 20px;
+    margin-right: 14px;
+    margin-bottom: 0px; 
+    padding: auto;
+}
+
+
+
+.art-p{
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 25px;
+    height: 65px;
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-top: 38px;
+
+    background-color: darkgray;
+}
+
+#last-p {
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 25px;
+    height: 65px;
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-top: 0px;
+
+    background-color: darkgray;
+}
+
+.section-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 76px;
+    margin-right: 93px;
+    margin-top: 58px;
+   
+    background-color: coral;
+}
+
+.flex-autor-danila {
+    display: flex;
+    background-color: yellowgreen;
+    height: 178px;
+    width: 550px;
+    margin-left: 148px;
+    margin-top: 46px;
+}
+
+.danila {
+    background-color: coral;
+    width: 223px;
+    height: 31px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 130%;
+}
+
+.h3-danila {
+    width: 277px;
+    height: 49px;   
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.info-name {
+    margin-top: 37px;
+    margin-left: 20px;
+}
+
+.p-i {
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 8px #5784C8;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+
+    margin-top: 52px;
+    margin-left: 0px;
+}
+
+.danila-info {
+    width: 399px;
+    height: 274px;
+    padding-top: 31px;
+    padding-right: 21px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;    
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+
+    background-color: bisque;
+}
+
+.dima-info {
+    width: 399px;
+    height: 379px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+
+    padding-top: 24px;
+    padding-right: 21px;
+    padding-bottom: 24px;
+    padding-left: 25px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    background-color: cadetblue;
+
+    margin-left: 202px;
+
+
+}
+
+.flex-autor-dima {
+    display: flex;
+    background-color: yellowgreen;
+    height: 178px;
+    width: 550px;
+    margin-left: 10px;
+    margin-top: 46px;
+
+
+}
+
+.section-two {
+    display: flex;
+}
+
+.title-two {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    
+    width: 600px;
+    height: 93px;
+    left: 121px;
+    margin-left: 114px;
+    margin-top: 324px;
+
+}
+
+.danila-bio {
+    margin-left: 330px;
+    margin-top: -31px;
+}
+
+
+.wer {
+    background-color: beige;
+}
+
+
+
+.img-auxiliary {
+    margin-left: 334px;
+}
+
+.img-ellipse {
+    margin-left: 316px;
+    margin-top: -20px;
+
+}
