@@ -11,13 +11,9 @@ body {
   margin: auto;
   padding-left: 113px;
   padding-top: 15px;
-  padding-right: 153px;
+  padding-right: 145px;
 }
 
-.header-box {
-  width: 112px;
-  height: 66px;
-}
 
 .line {
   width: 111px;
@@ -36,20 +32,23 @@ body {
 /* Блок с  3 секциями */
 
 .main-nav {
-  margin-top: 93px;
+  margin-top: 98px;
 }
 
 .main-box {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .main-nav-box {
-  margin-right: 47px;
+  margin-right: 44px;
 }
 
 .img-nav-box {
-  width: 22px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
+  padding-right: 3px;
 }
 
 .text-nav-box {
@@ -73,38 +72,40 @@ body {
   font-weight: bold;
   font-size: 80px;
   line-height: 101.38%;
-  margin-top: 25px;
-  margin-bottom: 34px;
+  margin-top: 23px;
+  margin-bottom: 0;
 }
 
 .top-box-text-header-param {
-  font-family: Roboto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 150%;
-  width: 414px;
-  height: 62px;
-  margin: 0;
+  margin-top: 33px;
+  margin-bottom: 0;
 }
 
-.top-box-img {
+.top-box-img-about{
   width: 304px;
   height: 356px;
-  margin-right: 86px;
-  margin-top: 15px;
+  margin-right: 93px;
+  margin-top: 13px;
+
 }
 
 /* Блок с текстом внутри  */
 
 .bot-box {
+  right: 54px;
   border-radius: 5px;
   transform: rotate(-4deg);
   width: 483.63px;
   height: 200px;
   margin: 0 auto;
   background-color: #1E4681;
-  margin-top: 84px;
+  margin-top: 83px;
+  position: relative;
 }
 
 .bot-box-text {
@@ -113,21 +114,32 @@ body {
   font-weight: normal;
   font-size: 25px;
   line-height: 130%;
-  padding-left: 29px;
   padding-top: 21px;
   margin: 0;
+  padding-left: 28px;
+}
+
+.bot-box-text-bot {
+  text-align: right;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 4px;
+  padding-right: 20px;
 }
 
 
 /* Средняя секция */
 
 .midl-sect {
-  margin-top: 177px;
+  margin-top: 173px;
 }
 
 .header-text {
-  width: 365px;
-  height: 93px;
   font-family: Roboto Slab, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: bold;
@@ -139,13 +151,9 @@ body {
 .sect-box {
   display: flex;
   justify-content: space-between;
-  margin-top: 18px;
+  margin-top: 56px;
 }
 
-.section-box {
-  width: 662px;
-  height: 374px;
-}
 
 .section-about-taxt {
   font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -154,6 +162,7 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin: 0;
+  margin-right: 180px;
 }
 
 .section-about-text {
@@ -163,13 +172,14 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin-top: 36px;
+  margin-right: 189px;
+  margin-bottom: 0;
 }
 
 .section-img {
   width: 314px;
   height: 316px;
   margin-top: 23px;
-  margin-right: -9px;
 }
 
 /* Подвал */
@@ -178,7 +188,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-top: 82px;
+  margin-top: 60px;
   align-items: center;
 }
 
@@ -188,15 +198,16 @@ footer {
 }
 
 .box {
-  width: 150px;
-  height: 39px;
-  margin-right: 94px;
+  margin-left: 0;
+  margin-right: 95px;
+
 }
 
 .box-title {
   font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: bold;
+  padding-top: 1px;
   font-size: 25px;
   margin: 0;
 }
@@ -206,9 +217,10 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
+  width: 150px;
   line-height: 130%;
   margin: 0;
-  padding-top: 9px;
+  padding-top: 8px;
 }
 
 .footer-img {
@@ -223,19 +235,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 11px;
-  width: max-content;
+  padding-top: 32px;
+  width: 30%;
 }
 
 
 @media screen and (max-width: 834px) {
   .wrapper {
     padding-left: 62px;
-  }
-
-  .header-box {
-    width: 64.87px;
-    height: 38.23px;
+    padding-right: 82px;
   }
 
   .line {
@@ -251,11 +259,11 @@ footer {
   }
 
   .main-nav {
-    margin-top: 53px;
+    margin-top: 55px;
   }
 
   .main-nav-box {
-    margin-right: 24px;
+    margin-right: 20px;
   }
 
   .img-nav-box {
@@ -271,15 +279,14 @@ footer {
     font-weight: bold;
     font-size: 46px;
     margin-top: 12px;
-    margin-bottom: 2px;
     width: 363.72px;
     height: 110.04px;
   }
 
   .top-box-text-header-param {
     font-size: 12px;
-    width: 254px;
-    height: 39px;
+    padding-top: 2px;
+    margin-top: 0;
   }
 
   .top-box-img-about {
@@ -288,29 +295,32 @@ footer {
   }
 
   .top-box-img {
-    margin: 0;
     margin-left: 81px;
-    margin-top: 7px;
-  }
-
-  .top-box-img {
-    height: 0;
+    margin-top: -7px;
   }
 
   .bot-box {
     width: 280.11px;
     height: 115.83px;
-    margin-top: 100px;
-    padding-left: 21px;
+    margin-top: 47px;
+    padding-left: 0px;
     font-style: normal;
     font-weight: normal;
+    right: 30px;
+  }
+
+  .bot-box-text-bot {
+    font-size: 12px;
+    margin-top: 7px;
+    padding-right: 12px;
   }
 
   .bot-box-text {
     font-weight: normal;
     font-size: 14px;
-    padding-left: 11px;
+    padding-left: 16px;
     padding-top: 10px;
+    color: #FFFFFF;
   }
 
   .midl-sect {
@@ -318,63 +328,85 @@ footer {
   }
 
   .header-text {
-    width: 211.4px;
-    height: 53.86px;
     font-size: 32px;
   }
 
   .sect-box {
-    margin-top: 10px;
-  }
-
-  .section-box {
-    width: 383.41px;
-    height: 216.61px;
+    margin-top: 33px;
   }
 
   .section-about-taxt {
     font-size: 14px;
+    margin-right: 142px;
   }
 
   .section-about-text {
     font-size: 14px;
     margin-top: 21px;
+    margin-right: 117px;
+
   }
 
   .section-img {
     width: 181.86px;
     height: 182.44px;
-    margin-top: 15px;
-    margin-right: -73px;
+    margin-top: 13px;
+    margin-right: -1px;
   }
 
   footer {
-    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 26px;
+    align-items: center;
   }
-
-  .box-left {
-    margin-right: 77px;
-  }
-
+  
   .footer-img {
-    width: 134px;
-    height: 171px;
-    margin-top: 5px;
+    width: 232px;
+    height: 203px;
   }
-
+  
   .box {
+    margin-right: 53px;
+  }
+  
+  .box-title {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .box-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 130%;
+    margin: 0;
+    padding-top: 4px;
     width: 88.88px;
     height: 22.59px;
-    margin-right: 52px;
   }
-
-  .box-title {
-    font-size: 15px;
+  
+  .footer-img {
+    margin-top: 12px;
+    width: 134.37px;
+    height: 117.57px;
   }
+  
+  .box-left {
+    margin-right: 76px;
+  } 
 
-  .box-text {
-    font-size: 11px;
-    padding-top: 5px;
+  .box-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    padding-top: 21px;
   }
 }
 
@@ -382,7 +414,7 @@ footer {
   .wrapper {
     padding-left: 27px;
     padding-top: 28px;
-    padding-right: 42px;
+    padding-right: 19px;
   }
 
   .header-box {
@@ -416,7 +448,7 @@ footer {
   }
 
   .main-nav-box {
-    margin-right: 16px;
+    margin-right: 13px;
   }
 
   .top-box-text-header-about {
@@ -446,16 +478,31 @@ footer {
     width: 141.66px;
     height: 165.89px;
     margin-left: 84px;
+    margin-top: 0px;
   }
 
   .bot-box {
-    margin-top: 46px;
-    width: 225.36px;
+    margin-top: 48px;
+    width: 226.36px;
     height: 93.19px;
+    right: 40px;
+  }
+
+  .bot-box-text {
+    font-weight: normal;
+    font-size: 11px;
+    padding-left: 16px;
+    padding-top: 10px;
+  }
+
+  .bot-box-text-bot {
+    font-size: 10px;
+    margin-top: 5px;
+    padding-right: 11px;
   }
 
   .midl-sect {
-    margin-top: 77px;
+    margin-top: 75px;
   }
 
   .header-text {
@@ -470,52 +517,45 @@ footer {
   }
 
   .section-box {
-    width: 383.41px;
-    height: 216.61px;
-    margin-top: 0px;
+    margin-top: 7px;
   }
 
   .section-about-taxt {
     font-size: 12px;
-  }
-
-  .section-box {
-    width: 308.47px;
-    height: 174.27px;
-    margin-top: 8px;
+    margin-right: 12px;
   }
 
   .section-about-text {
     font-size: 12px;
     margin-top: 18px;
+    margin-right: 19px;
   }
 
   .section-img {
     width: 146.32px;
     height: 146.78px;
-    margin-top: 55px;
+    margin-top: 15px;
     margin-left: 78px;
   }
 
   footer {
-    display: flex;
     flex-direction: row-reverse;
-    margin-top: 32px;
+    margin-top: 24px;
+    justify-content: space-between;
   }
 
   .box-left {
-    margin-right: -7px;
-    margin-top: 62px;
+    margin-right: 17px;
+    margin-top: 39px;
   }
 
   .footer-img {
     width: 108.11px;
     height: 94.59px;
+    margin-top: 0;
   }
 
   .box {
-    width: 69.9px;
-    height: 18.17px;
     margin-top: 25px;
     margin-right: 0px;
   }
