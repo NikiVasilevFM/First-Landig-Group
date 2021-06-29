@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .Wal-header {
   margin-top: 2px;
 }
@@ -505,7 +506,7 @@ footer {
     
 }
 
-.article{
+.article-nikita{
     display: flex;
 }
 
@@ -949,39 +950,36 @@ line-height: 36px;
 .li7{
   font-size: 24px;
   line-height: 36px;  
-    margin-left: -15px;
-    
+  margin-left: -15px;
 }
 
+.programm {
+  display: flex;
+  justify-content: space-between;  
+  /* background-color: antiquewhite;  */
+}
 
-
-.title-one {
+.title-course-programm {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    
     width: 600px;
     height: 93px;
-    left: 121px;
-    margin-left: 113px;
-    margin-top: 53px;
-    
-       
+    margin-left: 121px;  
+    height: 70px;
+    margin-left: 37px;  
+    /* background-color: blueviolet; */
 }
-.cherta {
+.black-line {
     width: 630px;
     height: 14px; 
     background-color: black;    
-    
     margin-top: 77px;
-    
+
 }
 
-header {
-    display: flex;
-    justify-content: space-between;  
-}
+
 
 .article {
     background-color: aqua;
@@ -989,259 +987,88 @@ header {
     height: 328px;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+}
     
+/* ___________________course_menu____________________________ */
+
+.course-menu {
+    /* background-color: coral; */
+    margin-right: 77px;
+    margin-top: 83px;
 }
 
-.last-article {
+.img-nikita {
+  width: 399px;
+  height: 160px;
+}
+
+.section-one-upper{
     display: flex;
+    justify-content: space-between;
+    /* background-color: chartreuse; */
 }
 
-.otstup {
+.section-one-middle {
+    display: flex;
+    justify-content: space-between;
     margin-top: 41px;
 }
 
-.otstup-2 {
-    margin-top: 45px;
+.section-one-lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    /* background-color: chartreuse; */
 }
 
-.otstup-3 {
-    margin-top: 45px;
-    margin-left: 37px;
+.article-prog {
+    /* background-color: aqua; */
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25); 
 }
 
+.article-prog-last {
+  /* background-color: aqua; */
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin-left: 37px;
+}
 
+.article-prog-flex {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: cornsilk; */
+
+}
+
+.h3-style {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    /* background-color:burlywood; */
+    margin-left: 20px;
+    /* margin-right: 14px;  */
+    margin-top: 6px;  
+    line-height: 130%;
+    
+}
 
 #last-h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    background-color:burlywood;
+    /* background-color:burlywood; */
     margin-left: 20px;
-    margin-right: 14px;
+    /* margin-right: 0px; */
     margin-bottom: 0px; 
+    margin-top: 10px;
     padding: auto;
+    line-height: 97%;
 }
-
-
-
-.art-p{
-    font-family: 'Roboto', sans-serif;
-    /* font-style: normal; 
-    font-weight: 400;
-    font-size: 25px;
-    height: 65px;
-    margin-left: 19px;
-    margin-right: 15px;
-    margin-top: 38px;
-
-    background-color: darkgray;
-}
-
-#last-p {
-    font-family: 'Roboto', sans-serif;
-    /* font-style: normal; 
-    font-weight: 400;
-    font-size: 25px;
-    height: 65px;
-    margin-left: 19px;
-    margin-right: 15px;
-    margin-top: 0px;
-
-    background-color: darkgray;
-}
-
-.section-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 76px;
-    margin-right: 93px;
-    margin-top: 58px;
-   
-    background-color: coral;
-}
-
-.flex-autor-danila {
-    display: flex;
-    background-color: yellowgreen;
-    height: 178px;
-    width: 550px;
-    margin-left: 148px;
-    margin-top: 46px;
-}
-
-.danila {
-    background-color: coral;
-    width: 223px;
-    height: 31px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    margin-top: 0;
-    line-height: 130%;
-}
-
-.h3-danila {
-    width: 277px;
-    height: 49px;   
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
-.info-name {
-    margin-top: 37px;
-    margin-left: 20px;
-}
-
-.p-i {
-    width: 28px;
-    min-width: 28px;
-    height: 28px;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 18px;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    box-shadow: 1px 1px 8px #5784C8;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-
-    margin-top: 52px;
-    margin-left: 0px;
-}
-
-.danila-info {
-    width: 399px;
-    height: 274px;
-    padding-top: 31px;
-    padding-right: 21px;
-    padding-bottom: 17px;
-    padding-left: 25px;
-
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;    
-    box-sizing: border-box;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 130%;
-
-    background-color: bisque;
-}
-
-.dima-info {
-    width: 399px;
-    height: 379px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 130%;
-
-    padding-top: 24px;
-    padding-right: 21px;
-    padding-bottom: 24px;
-    padding-left: 25px;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-
-    background-color: cadetblue;
-
-    margin-left: 202px;
-
-
-}
-
-.flex-autor-dima {
-    display: flex;
-    background-color: yellowgreen;
-    height: 178px;
-    width: 550px;
-    margin-left: 10px;
-    margin-top: 46px;
-
-
-}
-
-.section-two {
-    display: flex;
-}
-
-.title-two {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    
-    width: 600px;
-    height: 93px;
-    left: 121px;
-    margin-left: 114px;
-    margin-top: 324px;
-
-}
-
-.danila-bio {
-    margin-left: 330px;
-    margin-top: -31px;
-}
-
-
-.wer {
-    background-color: beige;
-}
-
-
-
-.img-auxiliary {
-    margin-left: 333px;
-}
-
-.img-ellipse {
-    margin-left: 316px;
-    margin-top: -20px;
-
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Slab', serif;
-/* height: 100px;
-width: 800px; */
-}
-
-.wrapper {
-    
-  max-width: 1440px;
-  height: 100%;
-  margin: auto;
-  padding-left: 113px;
-  padding-top: 15px;
-   box-sizing: border-box;
-}
-
 
 .child {
-
     margin-left: -113px;
     background: #EFEFEF;
 }
@@ -1261,6 +1088,15 @@ width: 800px; */
     font-size: 55px;
     line-height: 101.38%;
     margin-bottom: 0px;
+}
+.art-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    margin-left: 19px;
+    margin-top: 32px;
 }
 
 .graf {
@@ -1290,22 +1126,42 @@ position: absolute;
 /* top: 50px; */
 /* top: 520px;
 right: -60px; */
+    /* background-color: darkgray; */
+}
 
+#last-p {
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 25px;
+    height: 65px;
+    margin-left: 19px;
+    /* margin-right: 32px; */
+    margin-top: 10px;
+    line-height: 130%;
 
 }
 .page2 {
     padding-bottom: 41px;
     padding-left: 24px;
     padding-top: 13px;
+    /* background-color: darkgray; */
 }
 
+.img-auxiliary {
+  margin-left: 150px;
+} 
 
+.img-ellipse {
+  margin-left: 130px;
+  margin-top: -20px;
+
+}
 
 .ups {
     margin-right: 66px;
     margin-top: -7px;
 }
-
 
 .mini-teext {
 margin-top: 14px;
@@ -1327,7 +1183,6 @@ margin-left: 6px;
     margin-left: -6px;
 }
 
-
 .mini-text {
     margin-top: -9px;
     font-family: Roboto;
@@ -1336,13 +1191,8 @@ margin-left: 6px;
     font-size: 18px;
     line-height: 101.38%;
     margin-left: 6px;
-   
-    
-    
     color: #000000;
 }
-
-
 
 .minni-text {
     margin-left: -6px;
@@ -1354,7 +1204,6 @@ margin-left: 6px;
     line-height: 101.38%;
     color: #000000;
 }
-
 
 
  .name {
@@ -1440,6 +1289,144 @@ background-color: #000;
 }
 
 
+/* _______________course_authors________________________ */
+
+.course-authors {
+    display: flex;
+}
+
+/* _______________autor paragraph one________________________ */
+
+
+.title-two {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 101.38%;
+    
+    
+    height: 70px; 
+    
+    margin-left: 39px;
+    margin-top: 324px;
+
+    /* background-color: slategray; */
+
+}
+
+.flex-autor-danila {
+  display: flex;
+  /* background-color: yellowgreen; */
+  height: 178px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.info-name {
+  margin-top: 17px;
+  margin-left: 21px;
+}
+
+.h3-danila {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.danila {
+  /* background-color: coral; */
+  width: 223px;
+  height: 31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 130%;
+}
+
+.p-i-danila {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+
+  margin-top: 52px;
+  margin-left: 19px;
+}
+
+
+.danila-bio {
+    margin-left: 254px;
+    margin-right: 15px;
+    margin-top: -23px;
+    
+}
+
+.danila-info {
+  padding-top: 33px;
+  padding-right: 21px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;    
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+
+  /* background-color: bisque; */
+}
+
+/* _______________autor paragraph one________________________ */
+
+
+.dima-info {
+  width: 399px;
+  height: 379px; 
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+
+  margin-top: 160px;
+  margin-left: 187px;
+  margin-bottom: 0;
+  
+
+  padding-top: 24px;
+  padding-right: 21px;
+  padding-bottom: 24px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  /* background-color: cadetblue; */
+
+  /* margin-left: 202px; */
+}
 
 
 
@@ -1513,15 +1500,50 @@ background-color: #000;
 }
 
 
+.flex-autor-dima {
+  display: flex;
+  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
+  width: 680px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.foto-dima {
+  width: 180px;
+  height: 166px;
+}
+
+.h3-dima {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  margin-top: 25px;
+}
+
+.p-i-dima {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
 .hh {
     padding-top: 3px;
 }
-
-
-/* .iiiii {
-    margin-left: 5px;
-} */
-
 
 .text10 {
     height: 33px;
@@ -1536,5 +1558,19 @@ background-color: #000;
     font-style: normal;
     font-size: 18px;
     line-height: 101.38%;
+  margin-top: 47px;
+  margin-left: 10px;
+}
+
+.dima {
+  /* background-color: coral; */
+  width: 400px;
+  height: 31x;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  padding-top: 4px;
 }
 
