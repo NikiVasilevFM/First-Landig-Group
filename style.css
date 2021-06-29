@@ -17,6 +17,7 @@ body {
   box-sizing: border-box;
 }
 
+
 .Wal-header {
   margin-top: 2px;
 }
@@ -955,7 +956,7 @@ line-height: 36px;
 .programm {
   display: flex;
   justify-content: space-between;  
-  background-color: antiquewhite; 
+  /* background-color: antiquewhite;  */
 }
 
 .title-course-programm {
@@ -968,7 +969,7 @@ line-height: 36px;
     margin-left: 121px;  
     height: 70px;
     margin-left: 37px;  
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .black-line {
     width: 630px;
@@ -991,7 +992,7 @@ line-height: 36px;
 /* ___________________course_menu____________________________ */
 
 .course-menu {
-    background-color: coral;
+    /* background-color: coral; */
     margin-right: 77px;
     margin-top: 83px;
 }
@@ -1004,7 +1005,7 @@ line-height: 36px;
 .section-one-upper{
     display: flex;
     justify-content: space-between;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .section-one-middle {
@@ -1017,17 +1018,17 @@ line-height: 36px;
     display: flex;
     justify-content: space-between;
     margin-top: 41px;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 .article-prog {
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25); 
 }
 
 .article-prog-last {
-  background-color: aqua;
+  /* background-color: aqua; */
   border-radius: 30px;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   margin-left: 37px;
@@ -1036,7 +1037,7 @@ line-height: 36px;
 .article-prog-flex {
   display: flex;
   justify-content: space-between;
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
 
 }
 
@@ -1045,7 +1046,7 @@ line-height: 36px;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    background-color:burlywood;
+    /* background-color:burlywood; */
     margin-left: 20px;
     /* margin-right: 14px;  */
     margin-top: 6px;  
@@ -1058,7 +1059,7 @@ line-height: 36px;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    background-color:burlywood;
+    /* background-color:burlywood; */
     margin-left: 20px;
     /* margin-right: 0px; */
     margin-bottom: 0px; 
@@ -1125,6 +1126,7 @@ position: absolute;
 /* top: 50px; */
 /* top: 520px;
 right: -60px; */
+    /* background-color: darkgray; */
 }
 
 #last-p {
@@ -1143,6 +1145,7 @@ right: -60px; */
     padding-bottom: 41px;
     padding-left: 24px;
     padding-top: 13px;
+    /* background-color: darkgray; */
 }
 
 .img-auxiliary {
@@ -1158,10 +1161,6 @@ right: -60px; */
 .ups {
     margin-right: 66px;
     margin-top: -7px;
-}
-.img-lower {
-background-color: darkkhaki;
-
 }
 
 .mini-teext {
@@ -1298,9 +1297,6 @@ background-color: #000;
 
 /* _______________autor paragraph one________________________ */
 
-.autor-paragraph-one {
-  background-color:sienna;
-}
 
 .title-two {
     font-family: 'Roboto Slab', serif;
@@ -1315,13 +1311,13 @@ background-color: #000;
     margin-left: 39px;
     margin-top: 324px;
 
-    background-color: slategray;
+    /* background-color: slategray; */
 
 }
 
 .flex-autor-danila {
   display: flex;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   height: 178px;
   margin-left: 70px;
   margin-top: 70px;
@@ -1342,7 +1338,7 @@ background-color: #000;
 }
 
 .danila {
-  background-color: coral;
+  /* background-color: coral; */
   width: 223px;
   height: 31px;
   font-family: Roboto;
@@ -1398,16 +1394,11 @@ background-color: #000;
   font-size: 18px;
   line-height: 130%;
 
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 /* _______________autor paragraph one________________________ */
 
-
-.autor-paragraph-two {
-    background-color: beige;
-    
-}
 
 .dima-info {
   width: 399px;
@@ -1432,7 +1423,7 @@ background-color: #000;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
 
   /* margin-left: 202px; */
 }
@@ -1512,6 +1503,7 @@ background-color: #000;
 .flex-autor-dima {
   display: flex;
   background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   width: 680px;
   margin-left: 0px;
   margin-top: 5px;
@@ -1571,7 +1563,7 @@ background-color: #000;
 }
 
 .dima {
-  background-color: coral;
+  /* background-color: coral; */
   width: 400px;
   height: 31x;
   font-family: Roboto;
