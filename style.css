@@ -505,7 +505,7 @@ footer {
     
 }
 
-.article{
+.article-nikita{
     display: flex;
 }
 
@@ -952,29 +952,32 @@ line-height: 36px;
   margin-left: -15px;
 }
 
-.title-one {
+.programm {
+  display: flex;
+  justify-content: space-between;  
+  background-color: antiquewhite; 
+}
+
+.title-course-programm {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    
     width: 600px;
     height: 93px;
     margin-left: 121px;  
+    height: 70px;
+    margin-left: 37px;  
+    background-color: blueviolet;
 }
-.cherta {
+.black-line {
     width: 630px;
     height: 14px; 
     background-color: black;    
-    
     margin-top: 77px;
+
 }
 
-.header-flex {
-    display: flex;
-    justify-content: space-between;   
-}
-/* _______________________________________________ */
 
 
 .article {
@@ -985,34 +988,57 @@ line-height: 36px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
 }
     
-.section-one {
+/* ___________________course_menu____________________________ */
+
+.course-menu {
     background-color: coral;
-    margin-right: 85px;
+    margin-right: 77px;
+    margin-top: 83px;
+}
+
+.img-nikita {
+  width: 399px;
+  height: 160px;
 }
 
 .section-one-upper{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: chartreuse;
 }
 
 .section-one-middle {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 41px;
 }
 
 .section-one-lower {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-top: 41px;
+    background-color: chartreuse;
 }
 
 .article-prog {
     background-color: aqua;
-    
     border-radius: 30px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25); 
 }
 
+.article-prog-last {
+  background-color: aqua;
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin-left: 37px;
+}
+
+.article-prog-flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: cornsilk;
+
+}
 
 .h3-style {
     font-family: 'Roboto', sans-serif;
@@ -1021,8 +1047,10 @@ line-height: 36px;
     font-size: 30px;
     background-color:burlywood;
     margin-left: 20px;
-    margin-right: 14px;
-    margin-top: 9px; 
+    /* margin-right: 14px;  */
+    margin-top: 6px;  
+    line-height: 130%;
+    
 }
 
 #last-h3 {
@@ -1032,10 +1060,11 @@ line-height: 36px;
     font-size: 30px;
     background-color:burlywood;
     margin-left: 20px;
-    margin-right: 14px;
+    /* margin-right: 0px; */
     margin-bottom: 0px; 
     margin-top: 10px;
     padding: auto;
+    line-height: 97%;
 }
 
 .child {
@@ -1058,6 +1087,15 @@ line-height: 36px;
     font-size: 55px;
     line-height: 101.38%;
     margin-bottom: 0px;
+}
+.art-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    margin-left: 19px;
+    margin-top: 32px;
 }
 
 .graf {
@@ -1087,7 +1125,18 @@ position: absolute;
 /* top: 50px; */
 /* top: 520px;
 right: -60px; */
+}
 
+#last-p {
+    font-family: 'Roboto', sans-serif;
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 25px;
+    height: 65px;
+    margin-left: 19px;
+    /* margin-right: 32px; */
+    margin-top: 10px;
+    line-height: 130%;
 
 }
 .page2 {
@@ -1096,13 +1145,24 @@ right: -60px; */
     padding-top: 13px;
 }
 
+.img-auxiliary {
+  margin-left: 150px;
+} 
 
+.img-ellipse {
+  margin-left: 130px;
+  margin-top: -20px;
+
+}
 
 .ups {
     margin-right: 66px;
     margin-top: -7px;
 }
+.img-lower {
+background-color: darkkhaki;
 
+}
 
 .mini-teext {
 margin-top: 14px;
@@ -1124,7 +1184,6 @@ margin-left: 6px;
     margin-left: -6px;
 }
 
-
 .mini-text {
     margin-top: -9px;
     font-family: Roboto;
@@ -1133,13 +1192,8 @@ margin-left: 6px;
     font-size: 18px;
     line-height: 101.38%;
     margin-left: 6px;
-   
-    
-    
     color: #000000;
 }
-
-
 
 .minni-text {
     margin-left: -6px;
@@ -1151,7 +1205,6 @@ margin-left: 6px;
     line-height: 101.38%;
     color: #000000;
 }
-
 
 
  .name {
@@ -1237,6 +1290,152 @@ background-color: #000;
 }
 
 
+/* _______________course_authors________________________ */
+
+.course-authors {
+    display: flex;
+}
+
+/* _______________autor paragraph one________________________ */
+
+.autor-paragraph-one {
+  background-color:sienna;
+}
+
+.title-two {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 55px;
+    line-height: 101.38%;
+    
+    
+    height: 70px; 
+    
+    margin-left: 39px;
+    margin-top: 324px;
+
+    background-color: slategray;
+
+}
+
+.flex-autor-danila {
+  display: flex;
+  background-color: yellowgreen;
+  height: 178px;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.info-name {
+  margin-top: 17px;
+  margin-left: 21px;
+}
+
+.h3-danila {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.danila {
+  background-color: coral;
+  width: 223px;
+  height: 31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 130%;
+}
+
+.p-i-danila {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+
+  margin-top: 52px;
+  margin-left: 19px;
+}
+
+
+.danila-bio {
+    margin-left: 254px;
+    margin-right: 15px;
+    margin-top: -23px;
+    
+}
+
+.danila-info {
+  padding-top: 33px;
+  padding-right: 21px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;    
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+
+  background-color: bisque;
+}
+
+/* _______________autor paragraph one________________________ */
+
+
+.autor-paragraph-two {
+    background-color: beige;
+    
+}
+
+.dima-info {
+  width: 399px;
+  height: 379px; 
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+
+  margin-top: 160px;
+  margin-left: 187px;
+  margin-bottom: 0;
+  
+
+  padding-top: 24px;
+  padding-right: 21px;
+  padding-bottom: 24px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  background-color: cadetblue;
+
+  /* margin-left: 202px; */
+}
 
 
 
@@ -1310,15 +1509,49 @@ background-color: #000;
 }
 
 
+.flex-autor-dima {
+  display: flex;
+  background-color: yellowgreen;
+  width: 680px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.foto-dima {
+  width: 180px;
+  height: 166px;
+}
+
+.h3-dima {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  margin-top: 25px;
+}
+
+.p-i-dima {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
 .hh {
     padding-top: 3px;
 }
-
-
-/* .iiiii {
-    margin-left: 5px;
-} */
-
 
 .text10 {
     height: 33px;
@@ -1333,5 +1566,19 @@ background-color: #000;
     font-style: normal;
     font-size: 18px;
     line-height: 101.38%;
+  margin-top: 47px;
+  margin-left: 10px;
+}
+
+.dima {
+  background-color: coral;
+  width: 400px;
+  height: 31x;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  padding-top: 4px;
 }
 
