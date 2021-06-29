@@ -13,7 +13,7 @@ body {
   height: 100%;
   margin: auto;
   padding-left: 122px;
-  padding-top: 15px;
+  padding-top: 18px;
   box-sizing: border-box;
 }
 
@@ -440,9 +440,9 @@ footer {
 
 .h3_menu1{
     font-family: Roboto;
-    margin-top: -25px;
     text-align: start;
-
+    margin-left: -10px;
+    margin-top: -6px;
 }
 
 .h3_menu2{
@@ -796,9 +796,7 @@ footer {
 .wrapper_anton{
     max-width: 1440px;
     height: 100%;
-    margin: auto;
-    padding-left: 113px;
-    padding-top: 15px;
+    margin-top: 168px;
     box-sizing: border-box;
    
 
@@ -859,9 +857,6 @@ margin-left: 25px;
 .h1-header{
     font-size: 55px;
     font-family: Roboto Slab;
-    margin-left: 5px;
- 
-    
 }
 .article{
     display: flex;
@@ -981,7 +976,7 @@ line-height: 36px;
 
 
 
-.article {
+.article-nikita {
     background-color: aqua;
     width: 399px;
     height: 328px;
