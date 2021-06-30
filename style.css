@@ -8,14 +8,14 @@ body {
   padding: 0;
 }
 
-.wrapper {
+/* .wrapper {
   max-width: 1440px;
   height: 100%;
   margin: auto;
   padding-left: 122px;
   padding-top: 18px;
   box-sizing: border-box;
-}
+} */
 
 
 .Wal-header {
@@ -1155,10 +1155,90 @@ margin-top: 12px;
 }
 
 
-.programm {
+/* _______________________NIKITA__________________________ */
+
+.nikita-box {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding-left: 84px;
+  padding-top: 18px;
+  box-sizing: border-box;
+}
+
+.header-flex {
   display: flex;
-  justify-content: space-between;  
-  /* background-color: antiquewhite;  */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 251px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 101.38%;
+}
+
+.title-one-nik {
+  margin-left: 40px;
+}
+
+.line-cherta {
+  width: 630px;
+  height: 14px;
+}
+
+.black-line {
+  width: 630px;
+  height: 14px; 
+  background-color: black;    
+  margin-top: 77px;
+
+}
+/* _________________SECTION-ONE_____________________ */
+
+.section-one {
+  margin-top: 107px;
+}
+
+.article-box-upper {
+  display: flex;
+}
+
+.title-menu-nik {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+#last-h3 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px; 
+  margin-top: 10px;
+  padding: auto;
+  line-height: 97%;
+} 
+
+.article-box-midl {
+  display: flex;
+  margin-top: 41px;
+}
+
+.article-box-low {
+  display: flex;
+  margin-top: 44px;
+}
+
+.img-size-nik {
+  width: 399px;
+  height: 160px;
 }
 
 .title-course-programm {
@@ -1171,104 +1251,232 @@ margin-top: 12px;
     margin-left: 121px;  
     height: 70px;
     margin-left: 37px;  
-    /* background-color: blueviolet; */
 }
-.black-line {
-    width: 630px;
-    height: 14px; 
-    background-color: black;    
-    margin-top: 77px;
-
-}
-
-
 
 .article-nikita {
-    background-color: aqua;
     width: 399px;
     height: 328px;
     border-radius: 30px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-}
-    
-/* ___________________course_menu____________________________ */
-
-.course-menu {
-    /* background-color: coral; */
-    margin-right: 77px;
-    margin-top: 83px;
+    margin-right: 37px;
 }
 
-.img-nikita {
-  width: 399px;
-  height: 160px;
+.paragraph-menu-nik{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal; 
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 130%;
+  margin-left: 19px;
+  margin-top: 32px;
 }
 
-.section-one-upper{
-    display: flex;
-    justify-content: space-between;
-    /* background-color: chartreuse; */
-}
+#last-paragraph-menu-nik {
+  font-family: 'Roboto', sans-serif;
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 25px;
+  height: 65px;
+  margin-left: 19px;
+  /* margin-right: 32px; */
+  margin-top: 10px;
+  line-height: 130%;
 
-.section-one-middle {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 41px;
 }
+/* _________________SECTION-TWO_____________________ */
 
-.section-one-lower {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 41px;
-    /* background-color: chartreuse; */
-}
-
-.article-prog {
-    /* background-color: aqua; */
-    border-radius: 30px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25); 
-}
-
-.article-prog-last {
-  /* background-color: aqua; */
-  border-radius: 30px;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  margin-left: 37px;
-}
-
-.article-prog-flex {
+.section-two {
+  margin-top: 107px;
   display: flex;
-  justify-content: space-between;
-  /* background-color: cornsilk; */
+}
+
+.title-two-nik {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 101.38%;
+  height: 70px; 
+  margin-left: 39px;
+  margin-top: 217px;
+}
+
+.flex-autor-danila {
+  display: flex;
+  height: 178px;
+  margin-left: 71px;
+  margin-top: 70px;
+}
+
+.info-name {
+  margin-top: 17px;
+  margin-left: 21px;
+}
+
+.h3-danila {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.danila {
+  width: 223px;
+  height: 31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 130%;
+}
+
+.p-i-danila {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-top: 52px;
+  margin-left: 19px;
+}
+
+.danila-bio {
+    margin-left: 254px;
+    margin-right: 15px;
+    margin-top: -23px;
+}
+
+.danila-info {
+  padding-top: 23px;
+  padding-right: 21px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;    
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  visibility: hidden;
+}
+
+.block-for-dima {
+  margin-top: -206px;
+}
+
+.img-auxiliary {
+  width: 253px;
+  height: 199px;
+  margin-left: 23px;
+} 
+
+.img-ellipse {
+  width: 232px;
+  height: 32px;
+  margin-top: -20px;
+}
+
+.pic-nik {
+  width: 253px;
+  margin-left: 296px;
+  position: relative;
+  margin-top: 12px;
+}
+
+.dima-info-block{
+  margin-top: 27px;
+  margin-left: 8px;
+}
+
+.dima-info {
+  width: 399px;
+  height: 379px; 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  margin-left: 179px;
+  padding-top: 24px;
+  padding-right: 21px;
+  padding-bottom: 24px;
+  padding-left: 25px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  visibility: hidden;
+}
+
+.dima {
+  height: 31x;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 0;
+  margin-top: -18px;
+}
+
+.flex-autor-dima {
+  display: flex;
+  width: 680px;
+  margin-left: 8px;
+  margin-top: -16px;
+}
+
+.foto-dima {
+  width: 180px;
+  height: 166px;
+  margin-left: -7px;
+}
+
+.h3-dima {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  margin-top: 27px;
+}
+
+.p-i-dima {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-left: -58px;
 
 }
 
-.h3-style {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    /* background-color:burlywood; */
-    margin-left: 20px;
-    /* margin-right: 14px;  */
-    margin-top: 6px;  
-    line-height: 130%;
-    
-}
 
-#last-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    /* background-color:burlywood; */
-    margin-left: 20px;
-    /* margin-right: 0px; */
-    margin-bottom: 0px; 
-    margin-top: 10px;
-    padding: auto;
-    line-height: 97%;
-}
+
+
 
 .child {
     margin-left: -113px;
@@ -1290,15 +1498,6 @@ margin-top: 12px;
     font-size: 55px;
     line-height: 101.38%;
     margin-bottom: 0px;
-}
-.art-p{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal; 
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 130%;
-    margin-left: 19px;
-    margin-top: 32px;
 }
 
 .graf {
@@ -1331,33 +1530,12 @@ right: -60px; */
     /* background-color: darkgray; */
 }
 
-#last-p {
-    font-family: 'Roboto', sans-serif;
-    /* font-style: normal; */
-    font-weight: 400;
-    font-size: 25px;
-    height: 65px;
-    margin-left: 19px;
-    /* margin-right: 32px; */
-    margin-top: 10px;
-    line-height: 130%;
 
-}
 .page2 {
     padding-bottom: 41px;
     padding-left: 24px;
     padding-top: 13px;
     /* background-color: darkgray; */
-}
-
-.img-auxiliary {
-  margin-left: 150px;
-} 
-
-.img-ellipse {
-  margin-left: 130px;
-  margin-top: -20px;
-
 }
 
 .ups {
@@ -1407,7 +1585,6 @@ margin-left: 6px;
     color: #000000;
 }
 
-
  .name {
     font-family: Roboto Slab;
     font-style: normal;
@@ -1438,8 +1615,6 @@ margin-left: 6px;
 .bg-turquise { 
 background: #9DC9C8;
 }
-
-
 
 .start {
     font-style: normal;
@@ -1476,8 +1651,6 @@ background: #9DC9C8;
     margin-top: -19px;
 }
 
-
-
 .section-text {
     display: flex;
     margin-right: 130px;
@@ -1489,148 +1662,6 @@ background: #9DC9C8;
 .bg-black {
 background-color: #000;
 }
-
-
-/* _______________course_authors________________________ */
-
-.course-authors {
-    display: flex;
-}
-
-/* _______________autor paragraph one________________________ */
-
-
-.title-two {
-    font-family: 'Roboto Slab', serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 55px;
-    line-height: 101.38%;
-    
-    
-    height: 70px; 
-    
-    margin-left: 39px;
-    margin-top: 324px;
-
-    /* background-color: slategray; */
-
-}
-
-.flex-autor-danila {
-  display: flex;
-  /* background-color: yellowgreen; */
-  height: 178px;
-  margin-left: 70px;
-  margin-top: 70px;
-}
-
-.info-name {
-  margin-top: 17px;
-  margin-left: 21px;
-}
-
-.h3-danila {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  margin-left: 0;
-  margin-bottom: 0;
-}
-
-.danila {
-  /* background-color: coral; */
-  width: 223px;
-  height: 31px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  margin-top: 10px;
-  line-height: 130%;
-}
-
-.p-i-danila {
-  width: 28px;
-  min-width: 28px;
-  height: 28px;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  box-shadow: 1px 1px 8px #5784C8;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-
-  margin-top: 52px;
-  margin-left: 19px;
-}
-
-
-.danila-bio {
-    margin-left: 254px;
-    margin-right: 15px;
-    margin-top: -23px;
-    
-}
-
-.danila-info {
-  padding-top: 33px;
-  padding-right: 21px;
-  padding-bottom: 35px;
-  padding-left: 25px;
-
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;    
-  box-sizing: border-box;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 130%;
-
-  /* background-color: bisque; */
-}
-
-/* _______________autor paragraph one________________________ */
-
-
-.dima-info {
-  width: 399px;
-  height: 379px; 
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 130%;
-
-  margin-top: 160px;
-  margin-left: 187px;
-  margin-bottom: 0;
-  
-
-  padding-top: 24px;
-  padding-right: 21px;
-  padding-bottom: 24px;
-  padding-left: 25px;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-
-  /* background-color: cadetblue; */
-
-  /* margin-left: 202px; */
-}
-
-
 
 .secton-footer {
   
@@ -1648,9 +1679,6 @@ background-color: #000;
     /* display: flex;
 	flex-direction: column; */
 }
-
-   
-
 
 .sky {
     display: flex;
@@ -1701,48 +1729,6 @@ background-color: #000;
     height: 20px;
 }
 
-
-.flex-autor-dima {
-  display: flex;
-  background-color: yellowgreen;
-  /* background-color: yellowgreen; */
-  width: 680px;
-  margin-left: 0px;
-  margin-top: 5px;
-}
-
-.foto-dima {
-  width: 180px;
-  height: 166px;
-}
-
-.h3-dima {
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 101.38%;
-  margin-top: 25px;
-}
-
-.p-i-dima {
-  width: 28px;
-  min-width: 28px;
-  height: 28px;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  box-shadow: 1px 1px 8px #5784C8;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #000000;
-}
-
 .hh {
     padding-top: 3px;
 }
@@ -1764,15 +1750,4 @@ background-color: #000;
   margin-left: 10px;
 }
 
-.dima {
-  /* background-color: coral; */
-  width: 400px;
-  height: 31x;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 130%;
-  padding-top: 4px;
-}
 
