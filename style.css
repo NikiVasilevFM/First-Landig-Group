@@ -193,7 +193,7 @@ body {
 
 /* Подвал */
 
-footer {
+.Wal-footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -1488,18 +1488,20 @@ margin-top: 12px;
 }
 
 .rtext {
-    margin-top: 91px;
+    margin-top: 26px;
     margin-left: 0px;
     padding-top: 68px;
 }
 
-.text50 {    
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: bold;
-font-size: 55px;
-line-height: 101.38%;
-color: #000000;
+.text50 {  
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-top: 23px;
+    margin-left: 235px;
 }
 
 .textt {
@@ -1523,7 +1525,7 @@ color: #000000;
     height: 450px;
     margin-top: 73px;
     width: 791px;
-    margin-left: 119px;
+    margin-left: 239px;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgb(0 0 0 / 25%);
     border-radius: 30px;
@@ -1552,28 +1554,28 @@ right: -60px; */
 }
 
 .ups {
-    margin-right: 66px;
+    margin-right: 15px;
     margin-top: -7px;
 }
 
 .mini-teext {
-margin-top: 14px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 101.38%;
-margin-left: 6px;
-}
-
-.mini-tteext {  
     margin-top: 14px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 101.38%;
-    margin-left: -6px;
+    margin-left: 57px;
+}
+
+.mini-tteext {  
+    margin-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    margin-left: 114px;
 }
 
 .mini-text {
@@ -1583,12 +1585,12 @@ margin-left: 6px;
     font-weight: normal;
     font-size: 18px;
     line-height: 101.38%;
-    margin-left: 6px;
+    margin-left: 57px;
     color: #000000;
 }
 
 .minni-text {
-    margin-left: -6px;
+    margin-left: 115px;
     margin-top: -9px;
     font-family: Roboto;
     font-style: normal;
@@ -1614,8 +1616,8 @@ margin-left: 6px;
 }
 
 .text0 {
-   padding-top: 39px;
-    padding-right: 37px;
+    padding-top: 40px;
+    padding-right: 35px;
     padding-left: 44px;
     font-family: Roboto;
     font-style: normal;
@@ -1630,18 +1632,32 @@ background: #9DC9C8;
 }
 
 .start {
+    font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
+    padding-left: 70px;
     font-size: 55px;
-    padding-left: 114px;
-    padding-top: 235px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-left: 165px;
+    padding-top: 246px;
 }
 
 .price {
-    padding-left: 114px;
+    /* padding-left: 114px;
     padding-top: 8px;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 400; */
+
+
+    margin-top: 66px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-left: 234px;
 }
 
 .value {
@@ -1655,13 +1671,13 @@ background: #9DC9C8;
 }
 
 .value-kamil {
-    margin-left: 114px;
+    margin-left: 235px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 80px;
     line-height: 101.38%;
-    margin-top: -19px;
+    margin-top: -18px;
 }
 
 .section-text {
@@ -1812,21 +1828,18 @@ background-color: #000;
   border-radius: 30px;
 }
 
-
-
-.secton-footer {
-   padding-top: 50px;
-   display: flex;
-   justify-content: space-between;
-    background: #000000;
-}
-
 .sky {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 122px;
     padding-bottom: 291px;
+}
+
+.secton-footer {
+    background-color: black;
+    padding-top: 133px;
+    padding-left: 122px;
 }
 
 .yy {
@@ -1867,8 +1880,119 @@ background-color: #000;
     height: 20px;
 }
 
+
+.flex-autor-dima {
+  display: flex;
+  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
+  width: 680px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.foto-dima {
+  width: 180px;
+  height: 166px;
+}
+
+.h3-dima {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 101.38%;
+  margin-top: 25px;
+}
+
+.p-i-dima {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 8px #5784C8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+
+.box-2-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-left-kamil {
+   
+}
+
+.insta {
+    width: 33px;
+    height: 33px;
+}
+
+.fb {
+    width: 32px;
+    height: 32px;
+    padding-left: 14px;
+}
+
+.phone {
+    width: 34px;
+    height: 34px;
+    padding-left: 28px;
+}
+
+.vk {
+    width: 35px;
+    height: 35px;
+    padding-left: 25px;
+}
+
+.sinhro-img {
+    width: 115px;
+    height: 68px;
+}
+
+.mails {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: 101.38%;
+    color: #FFFFFF;
+}
+
+.tells-phone  {
+    color: #fff;
+   
+}
+
+.box-img-kam {
+    display: flex;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+
+
 .hh {
     padding-top: 3px;
+}
+
+.conteiner-Kamil {
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+    padding-top: 0px;
+    box-sizing: border-box;
 }
 
 .text10 {
@@ -1888,4 +2012,56 @@ background-color: #000;
   margin-left: 10px;
 }
 
+.black-phone {
+    width: 27px;
+    height: 27px;
+    margin-right: 20px;
+}
+
+.lala {
+    width: 27px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+
+.box-right-kamil {
+    margin-top: 9px;
+    margin-right: -26px;
+}
+
+.call-1 {
+    display: flex;
+    align-items: center;
+    margin-right: 229px;
+}
+
+.sms {
+    align-items: center;
+    display: flex;
+    margin-top: 16px;
+}
+
+.text-40 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+margin-top:146px;
+padding-bottom: 23px;
+line-height: 101.38%;
+color: #FFFFFF;
+}
+
+.dima {
+  /* background-color: coral; */
+  width: 400px;
+  height: 31x;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  padding-top: 4px;
+}
 
